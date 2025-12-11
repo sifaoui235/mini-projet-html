@@ -1,0 +1,125 @@
+<body>
+<head>
+  <title>Compte - Smart Farm Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- en tete du site avec liens -->
+<table width="90%">
+  <tr>
+    <td align="left"><font face="Arial" size="5""><b><pre>                🌱 FarmSmart Platform</pre></b></font></td>
+    <td><font><a href="dashboard.html">Dashboard</a></font></td>
+    <td><font><a href="Capteurs.html">Capteurs</a></font></td>
+    <td><font><a href="Historique.html">Historique</a></font></td>
+    <td><font><a href="help.html">Help</a></font></td>
+    <td><font><a href="Compte.html">Compte</a></font></td>
+  </tr>
+</table>
+<HR>
+
+
+
+<br>
+<!-- Titre principal -->
+ <h1 align="center"><b>👤 Mon Compte</b></h1>
+
+
+
+<!-- Formulaire de configuration du compte -->
+<form>
+  <table border="0" cellspacing="10" cellpadding="6" width="70%" align="center">
+    <tr>
+      <td><b>Nom complet :</b></td>
+      <td><input type="text" name="nom" placeholder="entrer votre nom"></td>
+    </tr>
+    <tr>
+      <td><b>Email :</b></td>
+      <td><input type="email" name="email" placeholder="entrer votre email" id="email"></td>
+    </tr>
+    <tr>
+      <td><b>Téléphone :</b></td>
+      <td><input type="tel" name="tel" id="tel"  placeholder="Numéro de Téléphone" ></td>
+    </tr>
+    <tr>
+      <td><b>Nom d’utilisateur :</b></td>
+      <td><input type="text" name="username"  placeholder="entrer votre Nom d'utilisateur"></td>
+    </tr>
+    <tr>
+      <td><b>Mot de passe :</b></td>
+      <td><input type="password" name="password"  placeholder="entrer votre mot de passe" ></td>
+    </tr>
+     <tr>
+      <td><b>Age :</b></td>
+      <td><input type="number" name="number" id="age" min="18" max="90"></td>
+    </tr>
+
+        <tr>
+      <td><b>Date de naissance :</b></td>
+      <td><input type="date" name="date-naiss" id="age" min="18" max="90"></td>
+    </tr>
+
+        <tr>
+      <td><b>Image :</b></td>
+      <td><input type="file" name="Image" id="" ></td>
+    </tr>
+ 
+
+     <tr >
+      <td rowspan="2"><b><label for="">sexe :</label></b></td>
+      <td><input type="radio" name="sexe" id="" >Homme </td> 
+      <br>
+      </tr>
+    <tr  >
+      <td><input type="radio" name="sexe" id="" >Femme </td>
+      <br>
+    </tr>
+ 
+ 
+
+
+
+    <tr>
+      <td><b>gouvernement :</b></td>
+      <td>
+        <select name="gouvernement">
+          <option selected>Tunis</option>
+          <option>Tatouine</option>
+          <option>Mednine</option>
+                    <option>Gabes</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Notifications :</b></td>
+      <td>
+        <input type="checkbox" checked> Email
+        <input type="checkbox" checked> SMS
+      </td>
+    </tr>
+    <tr>
+      <td><b>Dernière connexion :</b></td>
+      <td><input type="text" name="lastlogin" value="03/12/2025 - 22:45" disabled ></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <input type="reset" value="Mettre à jour">
+        <input type="submit" value="Déconnecter" formaction="form.html">
+      </td>
+    </tr>
+  </table>
+</form>
+
+<br><br><br><br><br>
+<hr size="2" color="#cccccc" width="70%">
+<!-- Bas de page -->
+<p align="center">
+  <font face="Arial" size="3" color="gray">
+    Page Compte — Smart Farm Dashboard<br>
+    Gérez vos informations personnelles et vos préférences de configuration.
+  </font>
+</p>
+
+
+
+</body>
