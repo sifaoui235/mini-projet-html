@@ -1,47 +1,145 @@
+/* =========================================================
+   🌿 TON CSS ORIGINAL (inchangé)
+   ========================================================= */
+
 body {
-    background-color: #f0f8ff;  
-    color: black;              
+    background-color: #f0f8ff;
+    color: black;
 }
-a:visited {  
+
+a:visited {
     color: green;
 }
+
 table + hr {
-    height: 1px;          
-    width: 80%;          
+    height: 1px;
+    width: 80%;
     background-color: rgb(220, 217, 217);
 }
 
-
-
 h1 {
-    color: green;       
-    text-align: center;  
+    color: green;
+    text-align: center;
 }
+
 h1 + hr {
-    height: 3px;              
-    width: 80%;                
-    background-color: #2e8b57; 
-    margin: 10px auto; 
+    height: 3px;
+    width: 80%;
+    background-color: #2e8b57;
+    margin: 10px auto;
 }
+
 hr.before-h1 {
     height: 3px;
     width: 80%;
     background-color: #2e8b57;
     border: none;
-    margin: 10px auto; 
+    margin: 10px auto;
 }
+
 td:has(a) {
-    text-align: right;       
-    font-family: Arial;     
-    font-size: 16px ; }
-    a:hover{
-        color : pink
-    }
-    a {
-        text-decoration: none;
-    }
-    ul{
-         list-style-type: square ;
-        list-style-position: inside ;
-    }
-   
+    text-align: right;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+a:hover {
+    color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+
+.container {
+    background: white;
+    width: 380px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #2A7B3F;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #2A7B3F;
+    outline: none;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.connect {
+    background: #2A7B3F;
+    color: white;
+}
+
+.connect:hover {
+    background: #226436;
+}
+
+.create {
+    background: #58A96C;
+    color: white;
+}
+
+.create:hover {
+    background: #4B8E5B;
+}
+
+.reset {
+    background: #CCCCCC;
+}
+
+.reset:hover {
+    background: #B0B0B0;
+}
+
+.footer {
+    margin-top: 25px;
+    color: gray;
+    font-size: 14px;
+}

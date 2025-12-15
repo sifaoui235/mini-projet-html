@@ -1,53 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
 <head>
+  <meta charset="UTF-8">
   <title>Connexion - Smart Farm Dashboard</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
-<body >
 
-<!-- Titre -->
- <br>
-<div align="center">
-  <h1><b>🔐 Connexion</b></h1>
-</div>
+<body>
 
-<hr>
- <br><br><br><br><br><br><br> <br><br><br><br><br><br>
-<!-- Formulaire de connexion -->
-<form action="dashboard.html" method="get">
-  <div align="center">
-    <table border="0" cellspacing="10" cellpadding="6" width="50%">
-      <tr>
-        <td><b>Email :</b></td>
-        <td><input type="email" name="email" required placeholder="entrer votre Email" ></td>
-      </tr>
-      <tr>
-        <td><b>Mot de passe :</b></td>
-        <td><input type="password" name="password" required placeholder="entrer votre mot de passe"></td>
-      </tr>
-      <tr>
-        <td colspan="2" align="center">
-          <input type="submit" value="Connecter" formaction="dashboard.html">
-          <input type="reset" value="Annuler">
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" align="center"><input type="submit" value="Cree un compte"formaction="creecompte.html" ></td>
-      </tr>
-    </table>
-  </div>
-</form>
+<div class="container">
+    <h1>🔐 Connexion</h1>
 
+    <form action="dashboard.html" method="get" class="login-box">
 
-<!-- Bas de page -->
-  <br><br><br><br><br><br><br> <br><br><br><br><br><br>
-<hr size="2" color="#cccccc" width="70%">
-<div align="center">
-  <p>
-    <font face="Arial" size="3" color="gray">
-      Smart Farm Dashboard — Veuillez vous connecter pour accéder à vos données 🌱
-    </font>
-  </p>
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" name="email" required placeholder="Entrer votre email">
+        </div>
+
+        <div class="input-group">
+            <label>Mot de passe</label>
+            <input type="password" name="password" required placeholder="Entrer votre mot de passe">
+        </div>
+
+        <button type="submit" class="connect">Se connecter</button>
+
+        <button type="submit" class="create" formaction="creecompte.html">Créer un compte</button>
+
+        <button type="reset" class="reset">Annuler</button>
+    </form>
+
+    <p class="footer">
+        Smart Farm Dashboard — Veuillez vous connecter pour accéder à vos données 🌱
+    </p>
 </div>
 
 </body>
